@@ -1,0 +1,1080 @@
+{
+"metadata":  {
+    "generated_at":  "2026-04-17T01:30:36.110738+00:00",
+    "input_path":  "search_candidates.json",
+    "inspected_company_count":  99,
+    "saved_company_count":  20,
+    "notes":  [
+                  "This stage only extracts publicly listed company contact emails from company-controlled pages.",
+                  "It does not guess addresses or enrich personal email addresses.",
+                  "Only companies with at least one extracted email are saved in the output file."
+              ]
+},
+"companies":  [
+      {
+          "company_url":  "https://fundup.ai",
+          "domain":  "fundup.ai",
+          "title":  "Conversion Funding: $28M Series A — Investors, Contacts \u0026 Insights",
+          "market":  "United States",
+          "industry":  "MarTech",
+          "signal":  "funding",
+          "query":  "\"MarTech\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  41,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://fundup.ai",
+                                    "final_url":  "https://fundup.ai/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://fundup.ai/contact",
+                                    "final_url":  "https://fundup.ai/contact",
+                                    "error":  "403 Client Error: Forbidden for url: https://fundup.ai/contact"
+                                },
+                                {
+                                    "requested_url":  "https://fundup.ai/contact-us",
+                                    "final_url":  "https://fundup.ai/contact-us",
+                                    "error":  "403 Client Error: Forbidden for url: https://fundup.ai/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://fundup.ai/about",
+                                    "final_url":  "https://fundup.ai/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://fundup.ai/about-us",
+                                    "final_url":  "https://fundup.ai/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://fundup.ai/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://fundup.ai/team",
+                                    "final_url":  "https://fundup.ai/team",
+                                    "error":  "404 Client Error: Not Found for url: https://fundup.ai/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "hello@fundup.ai",
+                                    "source_url":  "https://fundup.ai/",
+                                    "source_type":  "html"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://f6s.com",
+          "domain":  "f6s.com",
+          "title":  "100 Top SaaS Companies in United Kingdom · April 2026 | F6S",
+          "market":  "United Kingdom",
+          "industry":  "B2B SaaS",
+          "signal":  "funding",
+          "query":  "\"B2B SaaS\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  38,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://f6s.com",
+                                    "final_url":  "https://www.f6s.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://f6s.com/contact",
+                                    "final_url":  "https://www.f6s.com/contact",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://f6s.com/contact-us",
+                                    "final_url":  "https://www.f6s.com/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://f6s.com/about",
+                                    "final_url":  "https://www.f6s.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://f6s.com/about-us",
+                                    "final_url":  "https://www.f6s.com/about-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://f6s.com/team",
+                                    "final_url":  "https://www.f6s.com/team",
+                                    "error":  null
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "support@f6s.com",
+                                    "source_url":  "https://www.f6s.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://scaleupgroup.com",
+          "domain":  "scaleupgroup.com",
+          "title":  "Who We Help - Series A Funding | Scale Up Investment",
+          "market":  "United Kingdom",
+          "industry":  "B2B SaaS",
+          "signal":  "funding",
+          "query":  "\"B2B SaaS\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  38,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://scaleupgroup.com",
+                                    "final_url":  "https://scaleupgroup.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://scaleupgroup.com/contact",
+                                    "final_url":  "https://scaleupgroup.com/contact/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://scaleupgroup.com/contact-us",
+                                    "final_url":  "https://scaleupgroup.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://scaleupgroup.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://scaleupgroup.com/about",
+                                    "final_url":  "https://scaleupgroup.com/about/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://scaleupgroup.com/about-us",
+                                    "final_url":  "https://scaleupgroup.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://scaleupgroup.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://scaleupgroup.com/team",
+                                    "final_url":  "https://scaleupgroup.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://scaleupgroup.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "info@scaleupgroup.com",
+                                    "source_url":  "https://scaleupgroup.com/",
+                                    "source_type":  "cfemail"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://aureliaventures.com",
+          "domain":  "aureliaventures.com",
+          "title":  "Scale Program for Outlier B2B SaaS Founders - Aurelia Ventures",
+          "market":  "United States",
+          "industry":  "B2B SaaS",
+          "signal":  "funding",
+          "query":  "\"B2B SaaS\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  36,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://aureliaventures.com",
+                                    "final_url":  "https://aureliaventures.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://aureliaventures.com/contact",
+                                    "final_url":  "https://aureliaventures.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://aureliaventures.com/contact"
+                                },
+                                {
+                                    "requested_url":  "https://aureliaventures.com/contact-us",
+                                    "final_url":  "https://aureliaventures.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://aureliaventures.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://aureliaventures.com/about",
+                                    "final_url":  "https://aureliaventures.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://aureliaventures.com/about-us",
+                                    "final_url":  "https://aureliaventures.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://aureliaventures.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://aureliaventures.com/team",
+                                    "final_url":  "https://aureliaventures.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://aureliaventures.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "hello@aureliaventures.com",
+                                    "source_url":  "https://aureliaventures.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://bebee.com",
+          "domain":  "bebee.com",
+          "title":  "VP Sales HrTech - HrFlow (ex: Riminder) | BeBee",
+          "market":  "United States",
+          "industry":  "HR Tech",
+          "signal":  "hiring",
+          "query":  "\"HR Tech\" \"United States\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  34,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://bebee.com",
+                                    "final_url":  "https://bebee.com/gb",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://bebee.com/contact",
+                                    "final_url":  "https://bebee.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://bebee.com/gb/contact"
+                                },
+                                {
+                                    "requested_url":  "https://bebee.com/contact-us",
+                                    "final_url":  "https://bebee.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://bebee.com/gb/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://bebee.com/about",
+                                    "final_url":  "https://bebee.com/gb/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://bebee.com/about-us",
+                                    "final_url":  "https://bebee.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://bebee.com/gb/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://bebee.com/team",
+                                    "final_url":  "https://bebee.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://bebee.com/gb/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "support@bebee.com",
+                                    "source_url":  "https://bebee.com/gb",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://dailyremote.com",
+          "domain":  "dailyremote.com",
+          "title":  "HR Tech Co-Founder / Head of Growth (100 % remote) (m/f/d)",
+          "market":  "United States",
+          "industry":  "HR Tech",
+          "signal":  "hiring",
+          "query":  "\"HR Tech\" \"United States\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  34,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://dailyremote.com",
+                                    "final_url":  "https://dailyremote.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://dailyremote.com/contact",
+                                    "final_url":  "https://dailyremote.com/contact",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://dailyremote.com/contact-us",
+                                    "final_url":  "https://dailyremote.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://dailyremote.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://dailyremote.com/about",
+                                    "final_url":  "https://dailyremote.com/about",
+                                    "error":  "404 Client Error: Not Found for url: https://dailyremote.com/about"
+                                },
+                                {
+                                    "requested_url":  "https://dailyremote.com/about-us",
+                                    "final_url":  "https://dailyremote.com/about-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://dailyremote.com/team",
+                                    "final_url":  "https://dailyremote.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://dailyremote.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "contact+employers@dailyremote.com",
+                                    "source_url":  "https://dailyremote.com/contact",
+                                    "source_type":  "deobfuscated_text"
+                                },
+                                {
+                                    "email":  "contact+feedback@dailyremote.com",
+                                    "source_url":  "https://dailyremote.com/contact",
+                                    "source_type":  "deobfuscated_text"
+                                },
+                                {
+                                    "email":  "contact+jobseekers@dailyremote.com",
+                                    "source_url":  "https://dailyremote.com/contact",
+                                    "source_type":  "deobfuscated_text"
+                                },
+                                {
+                                    "email":  "contact@dailyremote.com",
+                                    "source_url":  "https://dailyremote.com/",
+                                    "source_type":  "html"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://meetfrank.com",
+          "domain":  "meetfrank.com",
+          "title":  "1 Hybrid \u0026 Onsite Fintech Jobs in London, United ... - MeetFrank",
+          "market":  "United Kingdom",
+          "industry":  "FinTech",
+          "signal":  "hiring",
+          "query":  "\"FinTech\" \"United Kingdom\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  34,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://meetfrank.com",
+                                    "final_url":  "https://meetfrank.com/latest-remote-jobs-in-united-kingdom",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://meetfrank.com/contact",
+                                    "final_url":  "https://meetfrank.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://meetfrank.com/contact"
+                                },
+                                {
+                                    "requested_url":  "https://meetfrank.com/contact-us",
+                                    "final_url":  "https://meetfrank.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://meetfrank.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://meetfrank.com/about",
+                                    "final_url":  "https://meetfrank.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://meetfrank.com/about-us",
+                                    "final_url":  "https://meetfrank.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://meetfrank.com/team",
+                                    "final_url":  "https://meetfrank.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://meetfrank.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "support@meetfrank.com",
+                                    "source_url":  "https://meetfrank.com/about",
+                                    "source_type":  "html"
+                                },
+                                {
+                                    "email":  "team@meetfrank.com",
+                                    "source_url":  "https://meetfrank.com/about",
+                                    "source_type":  "html"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://vestbee.com",
+          "domain":  "vestbee.com",
+          "title":  "London\u0027s VC Defiant launches $30M fund to support B2B SaaS and ...",
+          "market":  "United Kingdom",
+          "industry":  "FinTech",
+          "signal":  "funding",
+          "query":  "\"FinTech\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  32,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://vestbee.com",
+                                    "final_url":  "https://www.vestbee.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://vestbee.com/contact",
+                                    "final_url":  "https://vestbee.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://www.vestbee.com/contact"
+                                },
+                                {
+                                    "requested_url":  "https://vestbee.com/contact-us",
+                                    "final_url":  "https://vestbee.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.vestbee.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://vestbee.com/about",
+                                    "final_url":  "https://vestbee.com/about",
+                                    "error":  "404 Client Error: Not Found for url: https://www.vestbee.com/about"
+                                },
+                                {
+                                    "requested_url":  "https://vestbee.com/about-us",
+                                    "final_url":  "https://vestbee.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.vestbee.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://vestbee.com/team",
+                                    "final_url":  "https://vestbee.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://www.vestbee.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "media@vestbee.com",
+                                    "source_url":  "https://www.vestbee.com/",
+                                    "source_type":  "deobfuscated_text"
+                                },
+                                {
+                                    "email":  "office@vestbee.com",
+                                    "source_url":  "https://www.vestbee.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://omnius.so",
+          "domain":  "omnius.so",
+          "title":  "Leading UK Fintech Startups to Watch in 2026 [Extended List]",
+          "market":  "United Kingdom",
+          "industry":  "FinTech",
+          "signal":  "funding",
+          "query":  "\"FinTech\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  30,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://omnius.so",
+                                    "final_url":  "https://www.omnius.so/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://omnius.so/contact",
+                                    "final_url":  "https://omnius.so/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://www.omnius.so/contact"
+                                },
+                                {
+                                    "requested_url":  "https://omnius.so/contact-us",
+                                    "final_url":  "https://www.omnius.so/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://omnius.so/about",
+                                    "final_url":  "https://www.omnius.so/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://omnius.so/about-us",
+                                    "final_url":  "https://omnius.so/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.omnius.so/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://omnius.so/team",
+                                    "final_url":  "https://omnius.so/team",
+                                    "error":  "404 Client Error: Not Found for url: https://www.omnius.so/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "hello@omnius.so",
+                                    "source_url":  "https://www.omnius.so/contact-us",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://youngcapital.uk",
+          "domain":  "youngcapital.uk",
+          "title":  "Head of Sales~ - YoungCapital UK",
+          "market":  "United Kingdom",
+          "industry":  "B2B SaaS",
+          "signal":  "hiring",
+          "query":  "\"B2B SaaS\" \"United Kingdom\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  30,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://youngcapital.uk",
+                                    "final_url":  "https://www.youngcapital.uk/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://youngcapital.uk/contact",
+                                    "final_url":  "https://youngcapital.uk/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://www.youngcapital.uk/contact"
+                                },
+                                {
+                                    "requested_url":  "https://youngcapital.uk/contact-us",
+                                    "final_url":  "https://youngcapital.uk/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.youngcapital.uk/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://youngcapital.uk/about",
+                                    "final_url":  "https://youngcapital.uk/about",
+                                    "error":  "404 Client Error: Not Found for url: https://www.youngcapital.uk/about"
+                                },
+                                {
+                                    "requested_url":  "https://youngcapital.uk/about-us",
+                                    "final_url":  "https://youngcapital.uk/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.youngcapital.uk/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://youngcapital.uk/team",
+                                    "final_url":  "https://youngcapital.uk/team",
+                                    "error":  "404 Client Error: Not Found for url: https://www.youngcapital.uk/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "info@youngcapital.uk",
+                                    "source_url":  "https://www.youngcapital.uk/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://edtech.com",
+          "domain":  "edtech.com",
+          "title":  "VP Sales | NAMER - Edtech.com",
+          "market":  "United States",
+          "industry":  "HR Tech",
+          "signal":  "hiring",
+          "query":  "\"HR Tech\" \"United States\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  28,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://edtech.com",
+                                    "final_url":  "https://www.edtech.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://edtech.com/contact",
+                                    "final_url":  "https://edtech.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://www.edtech.com/contact"
+                                },
+                                {
+                                    "requested_url":  "https://edtech.com/contact-us",
+                                    "final_url":  "https://edtech.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.edtech.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://edtech.com/about",
+                                    "final_url":  "https://www.edtech.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://edtech.com/about-us",
+                                    "final_url":  "https://edtech.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.edtech.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://edtech.com/team",
+                                    "final_url":  "https://edtech.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://www.edtech.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "hello@edtech.com",
+                                    "source_url":  "https://www.edtech.com/",
+                                    "source_type":  "html"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://growthlist.co",
+          "domain":  "growthlist.co",
+          "title":  "5,300+ Funded UK Startups 2026 | Verified Contacts \u0026 Data",
+          "market":  "United Kingdom",
+          "industry":  "FinTech",
+          "signal":  "funding",
+          "query":  "\"FinTech\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  28,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://growthlist.co",
+                                    "final_url":  "https://growthlist.co/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://growthlist.co/contact",
+                                    "final_url":  "https://growthlist.co/contact/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://growthlist.co/contact-us",
+                                    "final_url":  "https://growthlist.co/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://growthlist.co/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://growthlist.co/about",
+                                    "final_url":  "https://growthlist.co/about/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://growthlist.co/about-us",
+                                    "final_url":  "https://growthlist.co",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://growthlist.co/team",
+                                    "final_url":  "https://growthlist.co/team",
+                                    "error":  "404 Client Error: Not Found for url: https://growthlist.co/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "hi@growthlist.co",
+                                    "source_url":  "https://growthlist.co/contact/",
+                                    "source_type":  "cfemail"
+                                },
+                                {
+                                    "email":  "press@growthlist.co",
+                                    "source_url":  "https://growthlist.co/contact/",
+                                    "source_type":  "cfemail"
+                                },
+                                {
+                                    "email":  "support@growthlist.co",
+                                    "source_url":  "https://growthlist.co/contact/",
+                                    "source_type":  "cfemail"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://harringtonstarr.com",
+          "domain":  "harringtonstarr.com",
+          "title":  "Head of Sales – Cross-Border Payments (High-Risk Verticals)",
+          "market":  "United Kingdom",
+          "industry":  "FinTech",
+          "signal":  "hiring",
+          "query":  "\"FinTech\" \"United Kingdom\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  28,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://harringtonstarr.com",
+                                    "final_url":  "https://www.harringtonstarr.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://harringtonstarr.com/contact",
+                                    "final_url":  "https://www.harringtonstarr.com/contact-us/contact-us-london/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://harringtonstarr.com/contact-us",
+                                    "final_url":  "https://www.harringtonstarr.com/contact-us/contact-us-london/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://harringtonstarr.com/about",
+                                    "final_url":  "https://www.harringtonstarr.com/about-us/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://harringtonstarr.com/about-us",
+                                    "final_url":  "https://www.harringtonstarr.com/about-us/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://harringtonstarr.com/team",
+                                    "final_url":  "https://harringtonstarr.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://www.harringtonstarr.com/team/"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "info@harringtonstarr.com",
+                                    "source_url":  "https://www.harringtonstarr.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://sensepass.com",
+          "domain":  "sensepass.com",
+          "title":  "Chief Revenue Officer - Omnichannel payments at the Point Of Sale",
+          "market":  "United States",
+          "industry":  "FinTech",
+          "signal":  "hiring",
+          "query":  "\"FinTech\" \"United States\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  28,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://sensepass.com",
+                                    "final_url":  "https://sensepass.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://sensepass.com/contact",
+                                    "final_url":  "https://sensepass.com/contact-us/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://sensepass.com/contact-us",
+                                    "final_url":  "https://sensepass.com/contact-us/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://sensepass.com/about",
+                                    "final_url":  "https://sensepass.com/about/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://sensepass.com/about-us",
+                                    "final_url":  "https://sensepass.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://sensepass.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://sensepass.com/team",
+                                    "final_url":  "https://sensepass.com/team",
+                                    "error":  "403 Client Error: Forbidden for url: https://sensepass.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "info@sensepass.com",
+                                    "source_url":  "https://sensepass.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://techstars.com",
+          "domain":  "techstars.com",
+          "title":  "Portfolio: Startup Companies We\u0027ve Grown - Techstars",
+          "market":  "United States",
+          "industry":  "FinTech",
+          "signal":  "funding",
+          "query":  "\"FinTech\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  28,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://techstars.com",
+                                    "final_url":  "https://www.techstars.com",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://techstars.com/contact",
+                                    "final_url":  "https://www.techstars.com/contact",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://techstars.com/contact-us",
+                                    "final_url":  "https://techstars.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.techstars.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://techstars.com/about",
+                                    "final_url":  "https://www.techstars.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://techstars.com/about-us",
+                                    "final_url":  "https://techstars.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.techstars.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://techstars.com/team",
+                                    "final_url":  "https://www.techstars.com/about",
+                                    "error":  null
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "help@techstars.com",
+                                    "source_url":  "https://www.techstars.com",
+                                    "source_type":  "html"
+                                },
+                                {
+                                    "email":  "privacy@techstars.com",
+                                    "source_url":  "https://www.techstars.com/contact",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://qubit.capital",
+          "domain":  "qubit.capital",
+          "title":  "US Series A Funding Roundup Apr 7-14 2026 | $326.5M Acros...",
+          "market":  "United States",
+          "industry":  "FinTech",
+          "signal":  "funding",
+          "query":  "\"FinTech\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  26,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://qubit.capital",
+                                    "final_url":  "https://qubit.capital/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://qubit.capital/contact",
+                                    "final_url":  "https://qubit.capital/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://qubit.capital/contact"
+                                },
+                                {
+                                    "requested_url":  "https://qubit.capital/contact-us",
+                                    "final_url":  "https://qubit.capital/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://qubit.capital/about",
+                                    "final_url":  "https://qubit.capital/about",
+                                    "error":  "404 Client Error: Not Found for url: https://qubit.capital/about"
+                                },
+                                {
+                                    "requested_url":  "https://qubit.capital/about-us",
+                                    "final_url":  "https://qubit.capital/about-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://qubit.capital/team",
+                                    "final_url":  "https://qubit.capital/team",
+                                    "error":  "404 Client Error: Not Found for url: https://qubit.capital/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "support@qubit.capital",
+                                    "source_url":  "https://qubit.capital/contact-us",
+                                    "source_type":  "cfemail"
+                                },
+                                {
+                                    "email":  "support@staging.qubit.capital",
+                                    "source_url":  "https://qubit.capital/",
+                                    "source_type":  "html"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://syndicateroom.com",
+          "domain":  "syndicateroom.com",
+          "title":  "Founders Factory SEIS - Syndicate Room",
+          "market":  "United Kingdom",
+          "industry":  "B2B SaaS",
+          "signal":  "funding",
+          "query":  "\"B2B SaaS\" \"B2B SaaS\" \"United Kingdom\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  26,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://syndicateroom.com",
+                                    "final_url":  "https://www.syndicateroom.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://syndicateroom.com/contact",
+                                    "final_url":  "https://www.syndicateroom.com/contact",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://syndicateroom.com/contact-us",
+                                    "final_url":  "https://www.syndicateroom.com/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://syndicateroom.com/about",
+                                    "final_url":  "https://www.syndicateroom.com/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://syndicateroom.com/about-us",
+                                    "final_url":  "https://www.syndicateroom.com/about-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://syndicateroom.com/team",
+                                    "final_url":  "https://www.syndicateroom.com/team",
+                                    "error":  null
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "contactus@syndicateroom.com",
+                                    "source_url":  "https://www.syndicateroom.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://incubatorlist.com",
+          "domain":  "incubatorlist.com",
+          "title":  "Top Hardware Accelerators \u0026 VCs (2026) - Incubator List",
+          "market":  "United States",
+          "industry":  "DevTools",
+          "signal":  "funding",
+          "query":  "\"DevTools\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  24,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://incubatorlist.com",
+                                    "final_url":  "https://incubatorlist.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://incubatorlist.com/contact",
+                                    "final_url":  "https://incubatorlist.com/contact",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://incubatorlist.com/contact-us",
+                                    "final_url":  "https://incubatorlist.com/contact-us",
+                                    "error":  "404 Client Error: Not Found for url: https://incubatorlist.com/contact-us"
+                                },
+                                {
+                                    "requested_url":  "https://incubatorlist.com/about",
+                                    "final_url":  "https://incubatorlist.com/about",
+                                    "error":  "404 Client Error: Not Found for url: https://incubatorlist.com/about"
+                                },
+                                {
+                                    "requested_url":  "https://incubatorlist.com/about-us",
+                                    "final_url":  "https://incubatorlist.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://incubatorlist.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://incubatorlist.com/team",
+                                    "final_url":  "https://incubatorlist.com/team",
+                                    "error":  "404 Client Error: Not Found for url: https://incubatorlist.com/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "contact@incubatorlist.com",
+                                    "source_url":  "https://incubatorlist.com/contact",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://space-exec.com",
+          "domain":  "space-exec.com",
+          "title":  "Frontegg – Scaling Product Leadership for High-Growth SaaS",
+          "market":  "United Kingdom",
+          "industry":  "DevTools",
+          "signal":  "hiring",
+          "query":  "\"DevTools\" \"United Kingdom\" (hiring OR careers OR jobs) (\"VP Sales\" OR CRO OR \"Head of Sales\" OR \"Head of Growth\" OR \"Head of RevOps\")",
+          "score":  24,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://space-exec.com",
+                                    "final_url":  "https://www.space-exec.com/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://space-exec.com/contact",
+                                    "final_url":  "https://space-exec.com/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://www.space-exec.com/contact"
+                                },
+                                {
+                                    "requested_url":  "https://space-exec.com/contact-us",
+                                    "final_url":  "https://www.space-exec.com/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://space-exec.com/about",
+                                    "final_url":  "https://space-exec.com/about",
+                                    "error":  "404 Client Error: Not Found for url: https://www.space-exec.com/about"
+                                },
+                                {
+                                    "requested_url":  "https://space-exec.com/about-us",
+                                    "final_url":  "https://space-exec.com/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://www.space-exec.com/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://space-exec.com/team",
+                                    "final_url":  "https://www.space-exec.com/team",
+                                    "error":  null
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "info@space-exec.com",
+                                    "source_url":  "https://www.space-exec.com/",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      },
+      {
+          "company_url":  "https://medial.app",
+          "domain":  "medial.app",
+          "title":  "JAAQ Raises $17 Million Series A | The SaaS News - Medial App",
+          "market":  "United States",
+          "industry":  "Professional Services",
+          "signal":  "funding",
+          "query":  "\"Professional Services\" \"B2B SaaS\" \"United States\" (\"Series A\" OR \"Series B\" OR \"Series C\" OR funding)",
+          "score":  18,
+          "status":  "ok",
+          "reason":  null,
+          "pages_scanned":  [
+                                {
+                                    "requested_url":  "https://medial.app",
+                                    "final_url":  "https://medial.app/",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://medial.app/contact",
+                                    "final_url":  "https://medial.app/contact",
+                                    "error":  "404 Client Error: Not Found for url: https://medial.app/contact"
+                                },
+                                {
+                                    "requested_url":  "https://medial.app/contact-us",
+                                    "final_url":  "https://medial.app/contact-us",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://medial.app/about",
+                                    "final_url":  "https://medial.app/about",
+                                    "error":  null
+                                },
+                                {
+                                    "requested_url":  "https://medial.app/about-us",
+                                    "final_url":  "https://medial.app/about-us",
+                                    "error":  "404 Client Error: Not Found for url: https://medial.app/about-us"
+                                },
+                                {
+                                    "requested_url":  "https://medial.app/team",
+                                    "final_url":  "https://medial.app/team",
+                                    "error":  "404 Client Error: Not Found for url: https://medial.app/team"
+                                }
+                            ],
+          "public_emails":  [
+                                {
+                                    "email":  "help@medial.app",
+                                    "source_url":  "https://medial.app/contact-us",
+                                    "source_type":  "deobfuscated_text"
+                                }
+                            ]
+      }
+  ]
+}
